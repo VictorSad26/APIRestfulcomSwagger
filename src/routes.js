@@ -25,7 +25,7 @@ routes.post("/user", UserController.store);
  *      '200':
  *        description: Não houve erro.
  */
-routes.get('/user', UserController.show);
+routes.get('/users', UserController.show);
 
 /**
  * @swagger
